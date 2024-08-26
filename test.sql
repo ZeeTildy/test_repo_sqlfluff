@@ -1,4 +1,4 @@
-with cte AjijijijS (
+WITH cte AS (
     SELECT DISTINCT
         canonical_id,
         FROM_UNIXTIME(first_created_date) AS first_created_date
